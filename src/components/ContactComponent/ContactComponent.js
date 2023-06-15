@@ -59,7 +59,7 @@ export default function ContactComponent() {
                                     </div>
 
                                     <div className="form-group">
-                                        <textarea id="message" className="form-control" placeholder="Enter Message Here" required></textarea>
+                                        <textarea id="message" className="form-control" name="msg" placeholder="Enter Message Here" required></textarea>
                                     </div>
 
                                     <div className="form-group">
