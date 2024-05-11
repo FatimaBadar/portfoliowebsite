@@ -2,9 +2,9 @@ import React from "react";
 import "./HomeComponent.css";
 import Header from "../Header/Header";
 import SkillsComponent from "../SkillsComponent/SkillsComponent";
-import AboutComponent from "../AboutComponent/AboutComponent";
+import CoursesComponent from "../CoursesComponent/CoursesComponent";
 import ContactComponent from "../ContactComponent/ContactComponent";
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import CertificateComponent from "../CertificateComponent/CertificateComponent";
 
 export default function HomeComponent() {
 
@@ -28,19 +28,13 @@ export default function HomeComponent() {
                         With a CGPA of 3.65/4.0, I take pride in my commitment to academic excellence. 
                         I am eager to apply my skills and knowledge to 
                         contribute meaningfully to the field of web development, fostering innovation and delivering impactful solutions.
-                            {/* I'm a Computer Science Student who is passionate about Web Development.
-                            I'm familiar with HTML, CSS, PHP and REACT
-                            as I have developed my Web Development course Projects using these.
-                            My current CGPA is 3.66/4.0 */}
                         </p>
-
-                        {/* <div className="badge">
-                    </div> */}
                     </div>
                 </div>
             </div>
             <SkillsComponent/>  
-            <AboutComponent/>       
+            <CoursesComponent/>   
+            <CertificateComponent/>    
             <ContactComponent/>
         </>
     )

@@ -27,8 +27,13 @@ export default function Header() {
                   </ScrollLink>
                 </li>
                 <li className="nav-item">
-                  <ScrollLink to="about" smooth={true} duration={500} className="nav-link">
-                    About
+                  <ScrollLink to="courses" smooth={true} duration={500} className="nav-link">
+                    Courses
+                  </ScrollLink>
+                </li>
+                <li className="nav-item">
+                  <ScrollLink to="certificate" smooth={true} duration={500} className="nav-link">
+                    Certificates
                   </ScrollLink>
                 </li>
                 <li className="nav-item">
