@@ -1,5 +1,6 @@
 import React from 'react'
 import "./CertificateComponent.css";
+import scrumcertificate from '../../assets/img/scrumcertification.PNG'
 
 export default function CertificateComponent() {
   return (
@@ -17,7 +18,11 @@ export default function CertificateComponent() {
                 </li><br/>
               <li><b>Honors and Certificates</b><br/>
               <i>Coders Cup 2020-2021</i>
-              </li>             
+              </li>    
+              <li><b>Scrum Certifcate</b><br/>
+              <i>2024</i> <br/>
+              <img src={scrumcertificate}></img>
+              </li>          
             </ul>
           </div>
         </div>
